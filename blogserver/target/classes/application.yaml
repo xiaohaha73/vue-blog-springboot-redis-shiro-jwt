@@ -1,0 +1,9 @@
+
+# jwt配置项
+myjwt:
+  jwt:
+#    秘钥
+    secret: xiaohaha
+#    token过期时间
+    expire: 604800
+    header: Authorization
